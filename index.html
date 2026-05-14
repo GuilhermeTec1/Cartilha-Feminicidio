@@ -1,0 +1,62 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Cartilha Digital - Feminicídio</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  >
+
+</head>
+
+<body>
+
+  <!-- FUNDO -->
+  <div class="background"></div>
+
+  <!-- CONTAINER -->
+  <main class="slider-container">
+
+    <!-- SLIDE -->
+    <section class="slide">
+
+      <span class="tag">Cartilha Digital</span>
+
+      <h1 id="title"></h1>
+
+      <p id="text"></p>
+
+      <div class="info-box" id="extra"></div>
+
+    </section>
+
+    <!-- BOTÕES -->
+    <div class="controls">
+
+      <button onclick="prevSlide()">
+        <i class="fa-solid fa-arrow-left"></i>
+      </button>
+
+      <span id="counter"></span>
+
+      <button onclick="nextSlide()">
+        <i class="fa-solid fa-arrow-right"></i>
+      </button>
+
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
